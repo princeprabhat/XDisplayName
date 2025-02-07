@@ -1,8 +1,12 @@
 import React from 'react'
+import XDisplay from "./components/XDisplay"
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <div><XDisplay /></div>
+
+    </>
   )
 }
 
