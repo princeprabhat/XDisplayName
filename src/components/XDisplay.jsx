@@ -4,7 +4,7 @@ const XDisplay = () => {
   const [fullName, setFullName] = useState("");
   const handleForm = (e) => {
     e.preventDefault();
-    console.log();
+
     setFullName(
       e.target["first-name"].value + " " + e.target["last-name"].value
     );
